@@ -6,6 +6,7 @@
 /* First section */
 
 main {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,6 +60,21 @@ main {
     width: 80%;
     height: 100%;
     margin-left: 40px;
+}
+
+/* Second part */
+
+.second-part {
+    display: flex;
+}
+
+.match-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.match-box .matches img {
+    width: 100%;
 }
 
 /* footer {
